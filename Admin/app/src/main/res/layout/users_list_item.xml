@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    app:cardUseCompatPadding="true"
+    android:elevation="5dp"
+    app:cardCornerRadius="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/id_textView"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:text="This is Demo Id"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/name_textView"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="This is Deno Name"
+            android:layout_below="@id/id_textView"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/phone_textView"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:text="This is Demo Phone"
+            android:layout_below="@id/name_textView"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/id_textView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="idTextView"-->
+<!--        tools:layout_editor_absoluteX="16dp"-->
+<!--        tools:layout_editor_absoluteY="45dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/name_textView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="nameTextView"-->
+<!--        tools:layout_editor_absoluteX="16dp"-->
+<!--        tools:layout_editor_absoluteY="16dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/phone_textView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="phoneTextView"-->
+<!--        tools:layout_editor_absoluteX="16dp"-->
+<!--        tools:layout_editor_absoluteY="73dp" />-->
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

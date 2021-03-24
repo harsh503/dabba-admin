@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "6626075600",
+    "firebase_url": "https://admindummy-ecf57-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "admindummy-ecf57",
+    "storage_bucket": "admindummy-ecf57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6626075600:android:416b08a2e2186b29030fd5",
+        "android_client_info": {
+          "package_name": "com.example.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6626075600-amud18guv1rpn365sq2elmqft8s204qq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHkREpMkPj9AC-RwEVP_OfEGwhIy6MU8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6626075600-amud18guv1rpn365sq2elmqft8s204qq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
