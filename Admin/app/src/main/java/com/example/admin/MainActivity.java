@@ -9,18 +9,19 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button main_button;
+    Button home_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        main_button = (Button) findViewById(R.id.main_button);
-        main_button.setOnClickListener(new View.OnClickListener() {
+
+        home_button = (Button) findViewById(R.id.home_button);
+        home_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent users_intent = new Intent (v.getContext(), UsersActivity.class);
-                startActivity(users_intent);
+                Intent home_intent = new Intent (v.getContext(), HomeActivity.class);
+                startActivity(home_intent);
             }
         });
     }

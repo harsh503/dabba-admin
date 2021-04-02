@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/users_button"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:text="Users"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <Button
+        android:id="@+id/address_button"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_below="@id/users_button"
+        android:layout_marginTop="25dp"
+        android:text="Addresses"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/addressFastFood_button"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_below="@id/address_button"
+        android:layout_marginTop="25dp"
+        android:text="Fast Food Addresses"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/addressRestaurant_button"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_below="@id/addressFastFood_button"
+        android:layout_marginTop="25dp"
+        android:text="Restaurant Addresses"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

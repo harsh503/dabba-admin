@@ -44,9 +44,9 @@ public class RecyclerView_Config {
 
         public void bind(Users user, String key)
         {
-            mId.setText(user.getId());
-            mName.setText(user.getName());
-            mPhone.setText(""+user.getPhone());
+            mId.setText("ID: " + user.getId());
+            mName.setText("Name: " + user.getName());
+            mPhone.setText("Phone: " + user.getPhone());
             this.key = key;
         }
     }
